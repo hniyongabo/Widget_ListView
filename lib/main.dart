@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
             // VERTICAL ListView — UCL top 10 teams 
             Expanded(
               child: ListView(
+                padding: const EdgeInsets.symmetric(vertical:8),
                 children: [
                   const Padding(
                     padding: EdgeInsets.all(12),

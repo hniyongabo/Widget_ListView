@@ -1,17 +1,48 @@
-# widget_listview
+# Flutter ListView Widget Demo
 
-A new Flutter project.
+This is a Flutter application that uses a ListView both with a horizontal and vertical axis using the 'ListView' widget
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# How to Run
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+```bash
+   git clone https://github.com/hniyongabo/Widget_ListView.git
+```
+2. Go to the project folder:
+```bash
+   cd widget_listview
+```
+3. Install dependencies:
+```bash
+   flutter pub get
+```
+4. Run the app:
+```bash
+   flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ListView Attributes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Attribute Description**
+
+**'scrollDirection'**
+
+it controls the direction of the scroll whether the list will scroll horizontally or vertically.In the code it is set 'scrollDirection: Axis.horizontal'.
+For the vertical axis there is no need to include it the list scrolls vertically by default
+
+**'padding'**
+
+Adds spacing around the entire list content 
+
+**'children'**
+
+The children attribute contains a list of widgets displayed inside the Listview -- used for both the icons and the teams list.
+
+## Screenshots of the Listview UI
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
